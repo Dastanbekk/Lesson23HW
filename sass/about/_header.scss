@@ -16,10 +16,14 @@
             gap: 0 32px;
             list-style: none;
             .top__link{
+                padding: 18px;
                 text-decoration: none;
                 font-size: 15px;
                 line-height: 24px;
                 color: $black;
+                &:hover{
+                    border-bottom: 2px solid #191919B2;
+                }
             }
         }
         .top__btn{

@@ -11,11 +11,16 @@
   color: #FFF;
   background-color: #00BAFC;
   border-radius: 5px;
-  border: none;
+  border: 2px solid transparent;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   cursor: pointer;
+}
+.second__section .card .card__right .card__btns button:hover, .thirt__section .order__card .order__input .order__btn button:hover, .second__section .about__us .about__us--btn button:hover, .first__section .service__btns button:hover, .navbar__in .navbar__left .nav__btn button:hover, .topbar .top__right .top__btn button:hover {
+  color: #00BAFC;
+  border: 2px solid #00BAFC;
+  background-color: #FFF;
 }
 
 .topbar {
@@ -40,10 +45,14 @@
   list-style: none;
 }
 .topbar .top__right .top__list .top__link {
+  padding: 18px;
   text-decoration: none;
   font-size: 15px;
   line-height: 24px;
   color: #000;
+}
+.topbar .top__right .top__list .top__link:hover {
+  border-bottom: 2px solid rgba(25, 25, 25, 0.6980392157);
 }
 .topbar .top__right .top__btn {
   padding: 8px 0;
@@ -292,6 +301,16 @@
   display: flex;
   align-items: center;
   gap: 0 8px;
+  border-bottom: 1px solid transparent;
+  transition: 1s;
+}
+.row .col1 .footer__list .footer__link:hover, .row .col2 .footer__list .footer__link:hover, .row .col3 .footer__list .footer__link:hover {
+  color: #00BAFC;
+  padding-left: 20px;
+}
+.row .col1 .footer__list .footer__link svg:hover, .row .col2 .footer__list .footer__link svg:hover, .row .col3 .footer__list .footer__link svg:hover {
+  color: #00BAFC;
+  fill: #00BAFC;
 }
 
 * {
@@ -307,11 +326,16 @@
   color: #FFF;
   background-color: #00BAFC;
   border-radius: 5px;
-  border: none;
+  border: 2px solid transparent;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   cursor: pointer;
+}
+.second__section .card .card__right .card__btns button:hover, .topbar .top__right .top__btn button:hover, .navbar__in .navbar__left .nav__btn button:hover, .first__section .service__btns button:hover, .second__section .about__us .about__us--btn button:hover, .thirt__section .order__card .order__input .order__btn button:hover {
+  color: #00BAFC;
+  border: 2px solid #00BAFC;
+  background-color: #FFF;
 }
 
 * {
@@ -327,11 +351,16 @@
   color: #FFF;
   background-color: #00BAFC;
   border-radius: 5px;
-  border: none;
+  border: 2px solid transparent;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   cursor: pointer;
+}
+.second__section .card .card__right .card__btns button:hover, .topbar .top__right .top__btn button:hover, .navbar__in .navbar__left .nav__btn button:hover, .first__section .service__btns button:hover, .second__section .about__us .about__us--btn button:hover, .thirt__section .order__card .order__input .order__btn button:hover {
+  color: #00BAFC;
+  border: 2px solid #00BAFC;
+  background-color: #FFF;
 }
 
 .topbar {

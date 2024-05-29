@@ -29,6 +29,18 @@
                 color: $white;
                 @include display_center;
                 gap: 0 8px;
+                border-bottom: 1px solid transparent;
+                transition: 1s;
+
+                &:hover{
+                    color: $blue;
+                    padding-left: 20px;
+                }
+
+                svg:hover{
+                    color:$blue;
+                    fill: $blue;
+                }
             }
         }
     }
