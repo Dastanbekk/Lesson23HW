@@ -1,0 +1,249 @@
+@import "./mixins";
+
+@import "./mixins";
+
+.topbar{
+    box-shadow: 0px 10px 50px -3px rgba(0,0,0,0.1);
+    .topbar__display{
+        @include display_center;
+        justify-content: space-between
+    }
+    .top__right{
+        @include display_center;
+        justify-content: space-between;
+        gap: 0 24px;
+        .top__list{
+            @include display_center;
+            justify-content: space-between;
+            gap: 0 32px;
+            list-style: none;
+            .top__link{
+                text-decoration: none;
+                font-size: 15px;
+                line-height: 24px;
+                color: $black;
+            }
+        }
+        .top__btn{
+            padding: 8px 0;
+            button{
+                @extend %blue_btn;
+            }
+        }
+    }
+}
+
+.navbar__in--service{
+    padding:80px 0;
+
+    .navbar__left--service{
+        h3{
+            @include display_center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            color: $black;
+            margin-bottom: 16px
+        }
+        .navbar__desc--service{
+            @include display_center;
+            justify-content: center;
+            text-align: center;
+            p{
+                max-width: 800px;
+                line-height: 24px;
+                color: $black;
+            }
+        }
+    }
+}
+
+
+.second__section{
+    padding: 80px 0;
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 64px 0;
+    }
+    .card{
+        box-shadow: 0px 0px 42px -3px rgba(0,0,0,0.1);
+        padding: 32px;
+        @include display_center;
+        gap: 0 40px;
+
+        .card__right{
+
+            h3{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px;
+            }
+            p{
+                margin: 16px 0;
+                font-size: 16px;
+                line-height: 24px;
+                color: $black;
+            }
+
+            .card__list{
+                display: inline-block;
+                flex-direction: column;
+                gap: 8px 0;
+
+                list-style: none;
+                .card__link{
+                        @include display_center;
+                        gap: 0 8px;
+                        text-decoration: none;
+                        font-size: 16px;
+                        color: $black;
+                        line-height: 24px;
+                }
+            }
+            .card__btns{
+                margin-top: 16px;
+                @include display_center;
+                gap: 0 16px;
+                button{
+                    @extend %blue_btn;
+                }
+                a{
+                    color: $blue;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.thirt__section{
+    padding: 56px 0;
+    background-color: $blue;
+    color: $white;
+    .order__title{
+        @include display_center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        margin-bottom: 16px;
+    }
+    .order__desc{
+        @include display_center;
+        justify-content: center;
+        text-align: center;
+        p{
+            max-width: 719px;
+            line-height: 24px;
+        }
+    }
+
+    .order__card{
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        .order__input{
+            padding: 24px;
+            background-color: $white;
+            @include display_center;
+            flex-direction: column;
+            gap: 16px 0;
+
+            input,textarea,::placeholder{
+                padding: 16px 0 16px 16px;
+                border-radius: 5px;
+                background-color: $gray;
+                outline: none;
+                border: none;
+                color: $black;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            select,option{
+                padding: 16px 0px 16px 16px;
+                border-radius: 5px;
+                background-color: $gray;
+                outline: none;
+                border: none;
+                color: $black;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .order__btn{
+                button{
+                    @extend %blue_btn;
+                }
+            }
+        }
+    }
+}
+
+
+.topbar{
+    box-shadow: 0px 10px 50px -3px rgba(0,0,0,0.1);
+    .topbar__display{
+        @include display_center;
+        justify-content: space-between
+    }
+    .top__right{
+        @include display_center;
+        justify-content: space-between;
+        gap: 0 24px;
+        .top__list{
+            @include display_center;
+            justify-content: space-between;
+            gap: 0 32px;
+            list-style: none;
+            .top__link{
+                text-decoration: none;
+                font-size: 15px;
+                line-height: 24px;
+                color: $black;
+            }
+        }
+        .top__btn{
+            padding: 8px 0;
+            button{
+                @extend %blue_btn;
+            }
+        }
+    }
+}
+
+.navbar__in{
+    padding:80px 0;
+
+    .navbar__left{
+        h3{
+            @include display_center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            color: $black;
+            margin-bottom: 16px
+        }
+        .navbar__desc{
+            @include display_center;
+            justify-content: center;
+            text-align: center;
+            p{
+                max-width: 800px;
+                line-height: 24px;
+                color: $black;
+            }
+        }
+    }
+}
